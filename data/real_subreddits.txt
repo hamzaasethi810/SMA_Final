@@ -1,0 +1,3 @@
+# put one subreddit name per line
+# example:
+# news
