@@ -1,0 +1,58 @@
+TF-IDF + SVM RESULTS
+============================================================
+Accuracy : 0.7405
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        fake     0.6478    0.7420    0.6917      7123
+        real     0.8161    0.7396    0.7760     11032
+
+    accuracy                         0.7405     18155
+   macro avg     0.7320    0.7408    0.7338     18155
+weighted avg     0.7501    0.7405    0.7429     18155
+
+
+Top Features (Fake):
+  maga                            -2.6668
+  malik                           -1.7686
+  cuck                            -1.6743
+  brother                         -1.5682
+  cucks                           -1.4443
+  anon                            -1.4244
+  podesta                         -1.4113
+  pepe                            -1.3533
+  kek                             -1.3510
+  centipede                       -1.3375
+  ctr                             -1.3296
+  your brother                    -1.3197
+  gowdy                           -1.2941
+  her                             -1.2719
+  tendies                         -1.2413
+  redacted                        -1.2187
+  train                           -1.2013
+  coat                            -1.1938
+  spicy                           -1.1676
+  tweet                           -1.1556
+
+Top Features (Real):
+  republicans                     +1.6021
+  clinton                         +1.4157
+  evidence                        +1.3544
+  china                           +1.3311
+  progressive                     +1.2835
+  oppo                            +1.2389
+  candidate                       +1.2163
+  senate                          +1.1000
+  capitalism                      +1.0654
+  tax                             +1.0556
+  putin                           +1.0463
+  bernie                          +0.9903
+  partisan                        +0.9892
+  puppet                          +0.9767
+  republican                      +0.9691
+  emails                          +0.9688
+  congress                        +0.9642
+  labour                          +0.9613
+  rights                          +0.9492
+  candidates                      +0.9385
