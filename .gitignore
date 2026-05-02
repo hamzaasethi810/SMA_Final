@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#ignore embeddings
+scripts/glove.6B.100d.txt

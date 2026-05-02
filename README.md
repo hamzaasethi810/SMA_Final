@@ -60,6 +60,13 @@ political subreddits. Specifically, it has the following data fields:
 - `politician`: subreddit devoted to a politician
 - `region`: Canada `ca`, Europe `eu`, Middle East `me`, UK `uk`, US states `us` or other regions `world`
 
+To run the GloVe model, download embeddings from:
+https://nlp.stanford.edu/projects/glove/
+
+Use: glove.6B.100d.txt
+
+Place it in:
+scripts/
 
 # User Metadata
 
