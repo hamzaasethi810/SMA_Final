@@ -8,6 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
+import matplotlib.pyplot as plt
 
 def load_table(path):
     p = Path(path).expanduser()
@@ -92,6 +93,30 @@ def main():
         f.write("Classification Report:\n")
         f.write(rep)
     print(f"Report saved -> {report_path.resolve()}")
+
+    # ── Save Plots ───────────────────────────────────────────────────────
+    plt.figure(figsize=(8, 6))
+    plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
+    plt.title("Confusion Matrix: SBERT+LR")
+    plt.colorbar()
+    tick_marks = np.arange(len(names))
+    plt.xticks(tick_marks, names, rotation=45)
+    plt.yticks(tick_marks, names)
+    
+    thresh = cm.max() / 2.
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            plt.text(j, i, format(cm[i, j], 'd'),
+                     ha="center", va="center",
+                     color="white" if cm[i, j] > thresh else "black")
+    
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    plt.tight_layout()
+    
+    plot_path = out_dir / "sbert_LR_plots.png"
+    plt.savefig(plot_path)
+    print(f"Plots saved -> {plot_path.resolve()}")
 
 if __name__ == "__main__":
     main()
