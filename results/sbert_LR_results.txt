@@ -1,13 +1,13 @@
 SBERT + LR RESULTS
 ============================================================
-Accuracy : 0.7044
+Accuracy : 0.7217
 
 Classification Report:
               precision    recall  f1-score   support
 
-        fake     0.6667    0.6282    0.6469       156
-        real     0.7302    0.7621    0.7458       206
+        fake     0.6725    0.5668    0.6151      7123
+        real     0.7461    0.8218    0.7821     11032
 
-    accuracy                         0.7044       362
-   macro avg     0.6984    0.6952    0.6964       362
-weighted avg     0.7028    0.7044    0.7032       362
+    accuracy                         0.7217     18155
+   macro avg     0.7093    0.6943    0.6986     18155
+weighted avg     0.7172    0.7217    0.7166     18155
