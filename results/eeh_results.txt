@@ -1,0 +1,13 @@
+EMOTION ENHANCED HYBRID RESULTS
+============================================================
+Accuracy : 0.7220
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        fake     0.6756    0.5606    0.6128      7123
+        real     0.7444    0.8262    0.7832     11032
+
+    accuracy                         0.7220     18155
+   macro avg     0.7100    0.6934    0.6980     18155
+weighted avg     0.7174    0.7220    0.7163     18155
