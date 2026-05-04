@@ -1,0 +1,61 @@
+TF-IDF + LOGISTIC REGRESSION RESULTS
+============================================================
+Accuracy : 0.7177
+
+Confusion Matrix:
+[[ 958  463]
+ [ 557 1635]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        fake     0.6323    0.6742    0.6526      1421
+        real     0.7793    0.7459    0.7622      2192
+
+    accuracy                         0.7177      3613
+   macro avg     0.7058    0.7100    0.7074      3613
+weighted avg     0.7215    0.7177    0.7191      3613
+
+Top 20 Features: fake / fake
+  malik                           -4.3477
+  maga                            -3.8336
+  brother                         -3.6523
+  your brother                    -3.0136
+  her                             -2.7413
+  kek                             -2.6057
+  obama                           -2.2769
+  pepe                            -2.2447
+  tendies                         -2.2265
+  barack                          -2.1972
+  we                              -2.0037
+  cuck                            -1.9889
+  centipede                       -1.9657
+  ctr                             -1.9495
+  welcome                         -1.9164
+  love                            -1.8829
+  coat                            -1.8783
+  she is                          -1.8685
+  huma                            -1.8616
+  doj                             -1.8445
+
+Top 20 Features: real / real
+  that                            +2.7136
+  because                         +2.2330
+  clinton                         +2.2197
+  candidate                       +2.1961
+  evidence                        +2.0886
+  of                              +2.0296
+  bernie                          +2.0248
+  you re                          +1.9682
+  not                             +1.9154
+  comrade                         +1.9018
+  than                            +1.8547
+  being                           +1.8168
+  line                            +1.7272
+  puppet                          +1.7060
+  comey                           +1.6672
+  republicans                     +1.6382
+  less                            +1.6140
+  story                           +1.6011
+  against                         +1.6010
+  really                          +1.5921
